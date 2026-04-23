@@ -12,7 +12,8 @@
  * sumDouble(5, 5); // 20
  */
 export function sumDouble(num1, num2) {
-  /* TODO */
+  const sum = num1 + num2;
+  return num1 == num2 ? 2 * sum : sum;
 }
 
 /**

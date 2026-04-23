@@ -47,7 +47,7 @@ export function makes10(num1, num2) {
  * near100(105, 10); // true
  */
 export function near100(n, distance) {
-  /* TODO */
+  return Math.abs(100 - n) <= distance;
 }
 
 /**

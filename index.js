@@ -99,7 +99,7 @@ export function shareLastDigit(num1, num2) {
  * isColdAndHot(10, 50); // false
  */
 export function isColdAndHot(temp1, temp2) {
-  /* TODO */
+  return Math.min(temp1, temp2) < 0 && Math.max(temp1, temp2) > 100;
 }
 
 /**

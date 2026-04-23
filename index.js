@@ -13,7 +13,7 @@
  */
 export function sumDouble(num1, num2) {
   const sum = num1 + num2;
-  return num1 == num2 ? 2 * sum : sum;
+  return num1 === num2 ? 2 * sum : sum;
 }
 
 /**
@@ -29,7 +29,7 @@ export function sumDouble(num1, num2) {
  * makes10(4, 4); // false
  */
 export function makes10(num1, num2) {
-  /* TODO */
+  return num1 === 10 || num2 === 10 || num1 + num2 === 10;
 }
 
 /**
